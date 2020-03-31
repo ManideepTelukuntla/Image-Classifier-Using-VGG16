@@ -10,11 +10,9 @@ In this project, you'll train an image classifier to recognize different species
 * GPU:
   * As the network makes use of a sophisticated deep convolutional neural network  the training process is impossible to be done by a common laptop. In order to train your models to your local machine you have three options
 
-  1. **Cuda** -- If you have an NVIDIA GPU then you can install CUDA from [here](https://developer.nvidia.com/cuda-downloads). With Cuda you will be able to train your model however the process will still be time consuming
-  2. **Cloud Services** -- There are many paid cloud services that let you train your models like [AWS](https://aws.amazon.com/fr/) or  [Google Cloud](https://cloud.google.com/)
-  3. **Coogle Colab** -- [Google Colab](https://colab.research.google.com/) gives you free access to a tesla K80 GPU for 12 hours at a time. Once 12 hours have ellapsed you can just reload and continue! The only limitation is that you have to upload the data to Google Drive and if the dataset is massive you may run out of space.
-
-  However, once a model is trained then a normal CPU can be used for the predict.py file and you will have an answer within some seconds.
+    * **Cuda** -- If you have an NVIDIA GPU then you can install CUDA from [here](https://developer.nvidia.com/cuda-downloads). With Cuda you will be able to train your model however the process will still be time consuming
+    * **Cloud Services** -- There are many paid cloud services that let you train your models like [AWS](https://aws.amazon.com/fr/) or  [Google Cloud](https://cloud.google.com/)
+    * **Coogle Colab** -- [Google Colab](https://colab.research.google.com/) gives you free access to a GPU for limited time.
 
 ## Implementation
 
@@ -30,7 +28,7 @@ In this project, you'll train an image classifier to recognize different species
     * Choose arcitecture : ```pytnon train.py data_dir --arch "vgg16"```
     * Set hyperparameters: ```python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20 ```
     * Use GPU for training: ```python train.py data_dir --gpu```
-    
+
 * Predict flower name from an image with ```predict.py``` along with the probability of that name. That is you'll pass in a single image ```/path/to/image``` and return the flower name and class probability
   * Basic usage: ```python predict.py /path/to/image checkpoint```
   * Options:
