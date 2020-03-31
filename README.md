@@ -15,7 +15,7 @@ In this project, you'll train an image classifier to recognize different species
 
     * **Cuda** -- If you have an NVIDIA GPU then you can install CUDA from [here](https://developer.nvidia.com/cuda-downloads). With Cuda you will be able to train your model however the process will still be time consuming
     * **Cloud Services** -- There are many paid cloud services that let you train your models like [AWS](https://aws.amazon.com/fr/) or  [Google Cloud](https://cloud.google.com/)
-    * **Coogle Colab** -- [Google Colab](https://colab.research.google.com/) gives you free access to a GPU for limited time.
+    * **Google Colab** -- [Google Colab](https://colab.research.google.com/) gives you free access to a GPU for limited time.
  * Additional files like ```cat_to_name.json(provided with repo)``` which is used to map labels into actual flower names.
 
 ## Implementation
