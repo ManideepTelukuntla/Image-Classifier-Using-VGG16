@@ -1,6 +1,6 @@
 # Image Classifier
 
-In this project, I trained an image classifier to recognize different species of flowers. I can imagine using something like this in a phone app that tells me the name of the flower my camera is looking at.I used [this dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html) of 102 flower categories as part of this project.
+In this project, I trained an image classifier to recognize different species of flowers. I can imagine using something like this in a phone app that tells me the name of the flower my camera is looking at. I used [this dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html) of 102 flower categories as part of this project.
 
 
 ## Prerequisites
